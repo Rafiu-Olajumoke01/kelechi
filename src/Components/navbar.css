@@ -56,3 +56,51 @@ nav {
     text-decoration: none;
     font-size: 1rem;
 }
+
+.navbar_links li a:hover {
+    color: grey;
+}
+
+.cartItems {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cart {
+    position: relative;
+}
+
+.cart a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+
+}
+
+.cart span {
+    position: absolute;
+    right: -8px;
+    top: -5px;
+    padding: 3px 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 7px;
+    border-radius: 50%;
+    box-shadow: 0 0 2px black;
+}
+
+.search {
+    color: #fff;
+}
+
+@media (max-width: 685px) {
+    nav {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .pages {
+        display: none;
+    }
+}

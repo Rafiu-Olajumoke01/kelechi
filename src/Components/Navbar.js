@@ -32,10 +32,12 @@ function Navbar() {
             </div>
 
             <div className="cartItems">
-                <Link to="/cart">
-                    <MdOutlineShoppingCart size="24" />
-                </Link>
-                <span>0</span>
+                <div className="cart">
+                    <Link to="/cart" >
+                        <MdOutlineShoppingCart size="24" />
+                    </Link>
+                    <span>0</span>
+                </div>
 
 
                 <div className="search">
