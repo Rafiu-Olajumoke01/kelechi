@@ -2,7 +2,7 @@ import React from 'react'
 import HomeHead from './HomeHead'
 import HomeMain from './HomeMain'
 
-function Index() {
+function HomePage() {
     return (
         <div>
             <HomeHead />
@@ -11,4 +11,4 @@ function Index() {
     )
 }
 
-export default Index
+export default HomePage

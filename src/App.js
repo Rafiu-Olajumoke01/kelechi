@@ -9,6 +9,7 @@ import "./App.css"
 
 const Home = React.lazy(() => import("./Pages/Home/Index"))
 const ProductPage = React.lazy(() => import("./Pages/ProductPage/ProductMain"))
+const DesignsPage = React.lazy(() => import("./Pages/DesignsPage/Index"))
 
 
 
@@ -21,6 +22,7 @@ function App() {
           <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/ProductPage' element={<ProductPage />} />
+          <Route path='/DesignsPage' element={<DesignsPage />} />
           </Routes>
         </BrowserRouter>
       </React.Suspense>

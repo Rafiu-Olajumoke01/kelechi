@@ -1,4 +1,4 @@
-import image1 from './../../Images/asset1.jpg'
+import cloth from './../../Images/asset1.jpg'
 import image2 from './../../Images/asset2.jpg'
 import image3 from './../../Images/asset3.jpg'
 import image4 from './../../Images/asset4.jpg'
@@ -7,17 +7,17 @@ import image6 from './../../Images/asset6.jpg'
 import image7 from './../../Images/asset7.jpg'
 import image8 from './../../Images/asset8.jpg'
 import image9 from './../../Images/asset9.jpg'
-
+import cartpage from './../../Images/cartpageTwo.jpg'
 export const allproducts = [
-    {
-        id: 1,
-        name: "Nice Shirt from Novakhay store",
-        image: image1,
-        price: 20.00,
-        description: "This shirt is very stylish and comfortable. It's made from a soft material and has a nice fit.",
-        category: "Clothing",
-        quantity: 5,
-    },
+    // {
+    //     id: 1,
+    //     name: "Nice Shirt from Novakhay store",
+    //     image: cartpage,
+    //     price: 20.00,
+    //     description: "This shirt is very stylish and comfortable. It's made from a soft material and has a nice fit.",
+    //     category: "Clothing",
+    //     quantity: 5,
+    // },
 
     {
         id: 2,
@@ -97,5 +97,18 @@ export const allproducts = [
         description: "This dress is elegant and beautiful. It's made from a silk material and has a comfortable fit.",
         category: "Clothing",
         quantity: 1,
-    }
+    },
+
+    {
+        id: 10,
+        name: "Nice Shirt from Novakhay store",
+        image: cloth,
+        price: 20.00,
+        description: "This shirt is very stylish and comfortable. It's made from a soft material and has a nice fit.",
+        category: "Clothing",
+        quantity: 5,
+    },
+    // Add more products here if needed
+
+    
 ]

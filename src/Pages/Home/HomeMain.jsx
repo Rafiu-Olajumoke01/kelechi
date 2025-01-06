@@ -1,23 +1,21 @@
 import React from 'react'
 import shortVideo from "./../../Images/shortvideo2.mp4"
+import BannerPage from './../Banner/Index'
+import DesignsPage from '../DesignsPage/Index'
+import Test from './../Test'
 import './home.css'
 function HomeMain() {
     return (
         <div>
-            <div className="container-fluid Banner">
-                <div className="row">
-                    <div className="col-md-6">
-                        <img src={require("./../../Images/asset6.jpg")} alt="" className='img-fluid' />
-                    </div>
+            <div className="banner mb-4">
+                <BannerPage />
+            </div>
 
-                    <div className="col-md-6">
-                        {/* <img src={require("./../../Images/asset3.jpg")} alt="" className='img-fluid'/> */}
-                        <video src={shortVideo} ></video>
-                    </div>
-                </div>
+            <div className="design">
+                <DesignsPage />
             </div>
         </div>
-        
+
     )
 }
 
