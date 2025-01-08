@@ -1,13 +1,14 @@
 .Banner {
     width: 100%;
-    height: 85vh;
+    height: 130vh;
     flex-wrap: wrap;
 }
 
 .Banner img {
     width: 100%;
-    height: 85vh;
-    object-fit: cover;
+    height: auto;
+    
+    
 }
 
 .imageContainer {
@@ -17,7 +18,14 @@
 @media (max-width: 768px) {
 
     /* Adjustments for smaller screens */
+    .Banner {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 120vh;
+    }
+
     .Banner img {
-        height: 80%;
+        height: 100%;
     }
 }

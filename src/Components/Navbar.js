@@ -6,7 +6,7 @@ import { MdOutlineShoppingCart } from "react-icons/md";
 
 function Navbar() {
     return (
-        <nav>
+        <nav className=''>
             <div className="navbar_brand">
                 <img src={require("./../Images/NovahkayLogo-removebg-preview.png")} alt="" />
             </div>
