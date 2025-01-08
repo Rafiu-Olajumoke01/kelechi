@@ -11,6 +11,7 @@ const Home = React.lazy(() => import("./Pages/Home/Index"))
 const ProductPage = React.lazy(() => import("./Pages/ProductPage/ProductMain"))
 const DesignsPage = React.lazy(() => import("./Pages/DesignsPage/Index"))
 const FootBannerPage = React.lazy(() => import("./Pages/FootBanner/Index"))
+const Cart = React.lazy(() => import("./Pages/Cart/Cart"))
 
 
 
@@ -25,6 +26,7 @@ function App() {
           <Route path='/ProductPage' element={<ProductPage />} />
           <Route path='/DesignsPage' element={<DesignsPage />} />
           <Route path='/FootBannerPage' element={<FootBannerPage />} />
+          <Route path='/Cart' element={<Cart />} />
           </Routes>
         </BrowserRouter>
       </React.Suspense>
