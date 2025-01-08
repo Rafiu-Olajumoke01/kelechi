@@ -14,19 +14,19 @@ function Navbar() {
             <div className="pages">
                 <ul className="navbar_links">
                     <li>
-                        <Link to="/">Home</Link>
+                        <Link to="/">HOME</Link>
                     </li>
 
                     <li>
-                        <Link to="/about">About Us</Link>
+                        <Link to="/about">ABOUT US</Link>
                     </li>
 
                     <li>
-                        <Link to="/products">Products</Link>
+                        <Link to="/products">PRODUCTS</Link>
                     </li>
 
                     <li>
-                        <Link to="/contact">Contact</Link>
+                        <Link to="/contact">CONTACT</Link>
                     </li>
                 </ul>
             </div>

@@ -1,13 +1,16 @@
 import cloth from './../../Images/asset1.jpg'
-import image2 from './../../Images/asset2.jpg'
-import image3 from './../../Images/asset3.jpg'
-import image4 from './../../Images/asset4.jpg'
-import image5 from './../../Images/asset5.jpg'
-import image6 from './../../Images/asset6.jpg'
+import image2 from './../../Images/asset1.jpg'
+import image3 from './../../Images/IMG-20250107-WA0015.jpg'
+import image4 from './../../Images/IMG-20250107-WA0007.jpg'
+import image5 from './../../Images/IMG-20250107-WA0016.jpg'
+import image6 from './../../Images/IMG-20250107-WA0020.jpg'
 import image7 from './../../Images/asset7.jpg'
 import image8 from './../../Images/asset8.jpg'
 import image9 from './../../Images/asset9.jpg'
-import cartpage from './../../Images/cartpageTwo.jpg'
+import image10 from './../../Images/IMG-20250107-WA0022.jpg'
+import image11 from './../../Images/IMG-20250107-WA0028.jpg'
+import image12 from './../../Images/IMG-20250107-WA0029.jpg'
+import image13 from './../../Images/IMG-20250107-WA0026.jpg'
 export const allproducts = [
     // {
     //     id: 1,
@@ -102,13 +105,42 @@ export const allproducts = [
     {
         id: 10,
         name: "Nice Shirt from Novakhay store",
-        image: cloth,
+        image: image13,
         price: 20.00,
         description: "This shirt is very stylish and comfortable. It's made from a soft material and has a nice fit.",
         category: "Clothing",
         quantity: 5,
     },
-    // Add more products here if needed
+
+    {
+        id: 11,
+        name: "Beautiful Sweater from Novakhay store",
+        image: image10,
+        price: 35.00,
+        description: "This sweater is designed for a casual outfit. It's made from a warm material and has a comfortable fit.",
+        category: "Clothing",
+        quantity: 3,
+    },
+
+    {
+        id: 12,
+        name: "Simple T-Shirt from Novakhay store",
+        image: image11,
+        price: 15.00,
+        description: "This t-shirt is simple and stylish. It's made from a cotton material and has a nice fit.",
+        category: "Clothing",
+        quantity: 7,
+    },
+
+    {
+        id: 13,
+        name: "Gorgeous Dress from Novakhay store",
+        image: image12,
+        price: 50.00,
+        description: "This dress is very elegant and beautiful. It's made from a silk material and has a comfortable fit.",
+        category: "Clothing",
+        quantity: 2,
+    },
 
     
 ]

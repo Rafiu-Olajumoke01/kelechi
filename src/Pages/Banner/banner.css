@@ -13,3 +13,11 @@
 .imageContainer {
     padding: 5px;
 }
+
+@media (max-width: 768px) {
+
+    /* Adjustments for smaller screens */
+    .Banner img {
+        height: 80%;
+    }
+}

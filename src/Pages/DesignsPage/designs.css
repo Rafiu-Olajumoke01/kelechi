@@ -6,8 +6,9 @@
 
 .designParent {
     width: 100%;
-    height: 100vh;
-    padding: 5px;
+    height: 170vh;
+    padding: 10px;
+    /* background-color: red; */
 }
 
 
@@ -44,4 +45,21 @@
 .card-title,
 .card-text {
     font-size: 15px;
+}
+
+@media (max-width: 768px) {
+
+    /* For screens smaller than 768px */
+    .designParent {
+        height: fit-content;
+        padding: 10px;
+    }
+
+    .designChilds {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        height: fit-content;
+    }
 }
