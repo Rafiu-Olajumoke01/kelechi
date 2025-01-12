@@ -36,7 +36,7 @@ function FooterHead() {
       </div>
 
       <div className="footEnd">
-        <Link> @ 2025, NOVAKHAY</Link>
+        <Link> @ 2025, SHOESHOP</Link>
       </div>
     </div>
   )

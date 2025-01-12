@@ -7,11 +7,11 @@ function FootBannerMain() {
             <div className="container-fluid footbanParent">
                 <div className="row">
                     <div className="col-md-6">
-                        <img src={require('./../../Images/IMG-20250107-WA0057.jpg')} alt="" className='img-fluid' />
+                        <img src={require('./../../Images/women sneakers.webp')} alt="" className='img-fluid' />
                     </div>
 
                     <div className="col-md-6">
-                        <img src={require('./../../Images/IMG-20250107-WA0065.jpg')} alt="" className='img-fluid' />
+                        <img src={require('./../../Images/fashion-shoes-sneaker.jpg')} alt="" className='img-fluid' />
                     </div>
                 </div>
             </div>
