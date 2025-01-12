@@ -8,7 +8,7 @@ function Navbar() {
     return (
         <nav className=''>
             <Link className="navbar_brand" to="/">
-                <img src={require("./../Images/NovahkayLogo-removebg-preview.png")} alt="" />
+                <img src={require("./../Images/simple-shoe-shop-logo-in-line-style-vector.png")} alt="" />
             </Link>
 
             <div className="pages">

@@ -1,5 +1,5 @@
 import React from 'react'
-import { allproducts } from "./../ProductPage/ProductMain"
+// import { allproducts } from "./../ProductPage/ProductMain"
 import Navbar from '../../Components/Navbar'
 
 function HomeHead() {

@@ -1,16 +1,10 @@
-import cloth from './../../Images/asset1.jpg'
-import image2 from './../../Images/asset1.jpg'
-import image3 from './../../Images/IMG-20250107-WA0015.jpg'
-import image4 from './../../Images/IMG-20250107-WA0007.jpg'
-import image5 from './../../Images/IMG-20250107-WA0016.jpg'
-import image6 from './../../Images/IMG-20250107-WA0020.jpg'
-import image7 from './../../Images/asset7.jpg'
-import image8 from './../../Images/asset8.jpg'
-import image9 from './../../Images/asset9.jpg'
-import image10 from './../../Images/IMG-20250107-WA0022.jpg'
-import image11 from './../../Images/IMG-20250107-WA0028.jpg'
-import image12 from './../../Images/IMG-20250107-WA0029.jpg'
-import image13 from './../../Images/IMG-20250107-WA0026.jpg'
+import image2 from './../../Images/1.jpg'
+import image3 from './../../Images/1-1.jpg.webp'
+import image4 from './../../Images/623.jpg'
+import image5 from './../../Images/68097_1668607420.webp'
+import image6 from './../../Images/men-shoes.jpg'
+import image7 from './../../Images/shoes 1.jpg'
+import image8 from './../../Images/s-l1200.jpg'
 export const allproducts = [
     // {
     //     id: 1,
@@ -24,122 +18,72 @@ export const allproducts = [
 
     {
         id: 2,
-        name: "Beautiful Sweater from Novakhay store",
+        name: "Sports Leather Shoes",
         image: image2,
         price: 35.00,
-        description: "This sweater is designed for a casual outfit. It's made from a warm material and has a comfortable fit.",
+        description: "Children's Sports Leather Shoes Boys and Girls Running Shoes White.",
         category: "Clothing",
         quantity: 3,
     },
 
     {
         id: 3,
-        name: "Simple T-Shirt from Novakhay store",
+        name: "Red and White Sneakers",
         image: image3,
         price: 15.00,
-        description: "This t-shirt is simple and stylish. It's made from a cotton material and has a nice fit.",
+        description: "Quality Mens Casual Sneakers.",
         category: "Clothing",
         quantity: 7,
     },
 
     {
         id: 4,
-        name: "Gorgeous Dress from Novakhay store",
+        name: "Cool Gray Fashion Sneakers",
         image: image4,
         price: 50.00,
-        description: "This dress is very elegant and beautiful. It's made from a silk material and has a comfortable fit.",
+        description: "This sneakers is very classy and flashy. It brings confidence and comfort to the person wearing it.",
         category: "Clothing",
         quantity: 2,
     },
 
     {
         id: 5,
-        name: "Cool Jacket from Novakhay store",
+        name: "Breathable Casual Sport Sneakers",
         image: image5,
         price: 70.00,
-        description: "This jacket is cool and stylish. It's made from a synthetic material and has a nice fit.",
+        description: "Kids Tennis Shoes, Boys Girls Fashion Sneakers, Breathable Mesh Colorful Casual Sports Shoes",
         category: "Clothing",
         quantity: 4,
     },
 
     {
         id: 6,
-        name: "Handmade shirt from Novakhay store",
+        name: "Quality Blue Ankle Sneakers",
         image: image6,
         price: 10.00,
-        description: "This shirt is handmade and stylish. It's made from a cotton material and has a nice fit.",
+        description: "Comfortable, Casual, Super flashy, Timeless fashion",
         category: "Clothing",
         quantity: 10,
     },
 
     {
         id: 7,
-        name: "Delicate shirt from Novakhay store",
+        name: "Mens Air Cushion Sneakers",
         image: image7,
         price: 5.00,
-        description: "This scarf is delicate and stylish. It's made from a silk material and has a nice fit.",
+        description: "Fashion Mens Air Cushion Sneaker Males Sport Shoes Color With Ink Splashing Shoes White",
         category: "Clothing",
         quantity: 8,
     },
 
     {
         id: 8,
-        name: "Gentle sweater from Novakhay store",
+        name: "Brown Sneakers",
         image: image8,
         price: 25.00,
-        description: "This sweater is gentle and comfortable. It's made from a cotton material and has a nice fit.",
+        description: "Nice and simple shoes for outdoors.",
         category: "Clothing",
         quantity: 6,
-    },
-
-    {
-        id: 9,
-        name: "Elegant dress from Novakhay store",
-        image: image9,
-        price: 40.00,
-        description: "This dress is elegant and beautiful. It's made from a silk material and has a comfortable fit.",
-        category: "Clothing",
-        quantity: 1,
-    },
-
-    {
-        id: 10,
-        name: "Nice Shirt from Novakhay store",
-        image: image13,
-        price: 20.00,
-        description: "This shirt is very stylish and comfortable. It's made from a soft material and has a nice fit.",
-        category: "Clothing",
-        quantity: 5,
-    },
-
-    {
-        id: 11,
-        name: "Beautiful Sweater from Novakhay store",
-        image: image10,
-        price: 35.00,
-        description: "This sweater is designed for a casual outfit. It's made from a warm material and has a comfortable fit.",
-        category: "Clothing",
-        quantity: 3,
-    },
-
-    {
-        id: 12,
-        name: "Simple T-Shirt from Novakhay store",
-        image: image11,
-        price: 15.00,
-        description: "This t-shirt is simple and stylish. It's made from a cotton material and has a nice fit.",
-        category: "Clothing",
-        quantity: 7,
-    },
-
-    {
-        id: 13,
-        name: "Gorgeous Dress from Novakhay store",
-        image: image12,
-        price: 50.00,
-        description: "This dress is very elegant and beautiful. It's made from a silk material and has a comfortable fit.",
-        category: "Clothing",
-        quantity: 2,
     },
 
     
